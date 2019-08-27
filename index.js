@@ -1,5 +1,5 @@
 const Discord= require('discord.js');
-const token="NTg3NDc3NDQxMTY2MDQ5Mjgx.XP3JYg.8zKEU3ws-oTE0Fj29KmuJNKLDD0";
+const token="Your Discord Token Here";
 const cmd=require('./cmd_func.js');
 const client=new Discord.Client();
 const ytdl=require('ytdl-core');
