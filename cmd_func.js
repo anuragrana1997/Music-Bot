@@ -24,7 +24,7 @@ module.exports.play =function(msg,generalvoicechannel,ytdl,yt)
     generalvoicechannel.join().then(connection => {
         console.log("joined channel");
         var youTube = new yt();
-        youTube.setKey("AIzaSyCRbUms-HPuvTJjtLZ0DH8IYe37yodCGy4");
+        youTube.setKey("YOUR Key Here");
         youTube.search(music_nm, 1, function(error, result) {
             if (error) {
               console.log(error);
